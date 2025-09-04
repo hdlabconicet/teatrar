@@ -11,3 +11,5 @@ El primer objetivo de nuestro proyecto es relevar estudios y ediciones previas p
 Este proyecto es liderado por el HD LAB del IIBICRIT de CONICET con la colaboracion del [grupo RosDH de la Universidad de Rostock](https://www.germanistik.uni-rostock.de/en/forschung/digital-humanities/rosdh/).
 
 Repositorio GitHub [ArDraCor](https://github.com/dracor-org/ardracor)
+
+Biblioteca Zotero [Teatro Argentino / ArDraCor](https://www.zotero.org/groups/6051112/teatro_argentino_-_ardracor)
