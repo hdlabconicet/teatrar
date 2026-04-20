@@ -3,9 +3,9 @@ layout: home
 title: Base de datos
 ---
 
-La base de datos del proyecto TeatrAr contiene información sobre obras de teatro producidas en el actual territorio de la República Argentina entre el siglo XVIII y los inicios del siglo XX.
+La base de datos del proyecto FiloCyT 2025 *Abordajes del teatro argentino (siglos XVIII y XIX) desde las humanidades digitales: codificación, publicación digital y análisis automatizado* (TeatrAr) contiene información sobre obras de teatro producidas en el actual territorio de la República Argentina entre el siglo XVIII y los inicios del siglo XX.
 
-Se ofrece información sobre autoría, fecha y lugar de composición, estreno, género, etc., así como el acceso al texto digital y codificado en XML-TEI y sus visualizaciones desde ArDraCor.
+Se ofrece información sobre autoría, fecha y lugar de composición, estreno, género, etc., así como el acceso al texto digital y codificado en XML-TEI y sus visualizaciones desde [ArDraCor](https://dracor.org/ar).
 
 <br>
 <div id="loading" style="font-size:20px;color:#555;text-align:center;padding:20px;"><i class="fa-solid fa-hourglass-half"></i> Cargando datos...</div>
