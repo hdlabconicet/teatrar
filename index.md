@@ -7,7 +7,7 @@ La base de datos del proyecto FiloCyT 2025 *Abordajes del teatro argentino (sigl
 
 Se ofrece información sobre autoría, fecha y lugar de composición, estreno, género, etc., así como el acceso al texto digital y codificado en XML-TEI y sus visualizaciones desde [ArDraCor](https://dracor.org/ar).
 
-Citar como: del Rio Riande, Gimena; Henny-Kramer, Ulrike; Calarco, Gabriel; De León, Romina; Gionco, Pamela; Hernández, Nidia; Ravelo, Teresa; Volkind, Laura. *Abordajes del teatro argentino (siglos XVIII y XIX) desde las humanidades digitales: codificación, publicación digital y análisis automatizado*. HD LAB.
+Citar como: del Rio Riande, Gimena; Henny-Kramer, Ulrike; Calarco, Gabriel; De León, Romina; Gionco, Pamela; Hernández, Nidia; Ravelo, Teresa; Volkind, Laura. (2025-). *Abordajes del teatro argentino (siglos XVIII y XIX) desde las humanidades digitales: codificación, publicación digital y análisis automatizado*. HD LAB.
 <br>
 <div id="loading" style="font-size:20px;color:#555;text-align:center;padding:20px;"><i class="fa-solid fa-hourglass-half"></i> Cargando datos...</div>
 
