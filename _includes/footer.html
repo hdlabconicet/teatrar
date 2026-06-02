@@ -1,5 +1,21 @@
 <link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
 
+<style>
+.author-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-social .social-links,
+.author-social .social-links ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
 <footer class="site-footer h-card">
   <data class="u-url" value="{{ '/' | relative_url }}"></data>
 
@@ -10,17 +26,35 @@
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
+            <li class="author-social">
+            <span class="p-name">{{ site.author.name | escape }}</span>
+            <span class="social-links">
+              {%- include social.html -%}
+            </span>
+          </li>
           {% endif -%}
-         
-        </ul>
-        <span><a class="no-underline-hover" target="_blank" rel="noopener noreferrer" href="https://hdlabconicet.github.io">
-        <img src="{{site.baseurl}}/assets/logo hd lab.png" style="max-width: 30%;"/>
-          <a class="no-underline-hover" target="_blank" rel="noopener noreferrer" href="https://dracor.org">
-        <img src="{{site.baseurl}}/assets/dracor.png" style="max-width: 10%;"/>
-             <a class="no-underline-hover" target="_blank" rel="noopener noreferrer" href=" <a class="no-underline-hover" target="_blank" rel="noopener noreferrer" href="https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/">
-        <img src="{{site.baseurl}}/assets/rosdh.png" style="max-width: 15%;"/>
-      </a></span>
+          </ul>
+        <div class="partner-logos">
+  <a class="no-underline-hover" target="_blank" rel="noopener noreferrer"
+     href="https://hdlabconicet.github.io">
+    <img src="{{site.baseurl}}/assets/logo hd lab.png" style="max-width: 30%;" alt="HD Lab">
+  </a>
+
+  <a class="no-underline-hover" target="_blank" rel="noopener noreferrer"
+     href="https://dracor.org">
+    <img src="{{site.baseurl}}/assets/dracor.png" style="max-width: 15%;" alt="DraCor">
+  </a>
+
+  <a class="no-underline-hover" target="_blank" rel="noopener noreferrer"
+     href="https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/">
+    <img src="{{site.baseurl}}/assets/rosdh.png" style="max-width: 15%;" alt="RoSDH">
+  </a>
+
+  <a class="no-underline-hover" target="_blank" rel="noopener noreferrer"
+     href="https://investigacion.filo.uba.ar/filo-cyt">
+    <img src="{{site.baseurl}}/assets/Filo-CyT.png" style="max-width: 30%;" alt="FILOCyT">
+  </a>
+</div>
       {%- endif %}
       </div>
       <div class="footer-col">
@@ -34,10 +68,6 @@
           <li class="p-name">Teléfono +54-11-4129-1158</li>
         </ul>
       </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
     </div>
 
   </div>
