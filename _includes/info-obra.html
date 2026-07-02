@@ -20,8 +20,12 @@
         contenedor.style.display = "block";
 
         if (fila) {
+          // Busca la URL en 'url-dracor', o variantes comunes por si hay mayúsculas/espacios en tu Google Sheet
+          const urlDestino = fila['ArDracor'] || fila['ardracor'] || fila['ArDracor'] || '#';
+
           contenedor.innerHTML = `
             <h3>${fila.Título}</h3>
+            <p><a href="${urlDestino}" target="_blank" rel="noopener noreferrer">Haga click aquí para acceder a la obra en DraCor</a></p>
             <p><strong>Autor:</strong> ${fila.Autor}</p>
             <p><strong>Estreno:</strong> ${fila.Estreno}</p>
             <p><strong>Escrito:</strong> ${fila.Escrito}</p>

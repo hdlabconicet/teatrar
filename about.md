@@ -10,7 +10,10 @@ El primer objetivo de nuestro proyecto es relevar estudios y ediciones previas p
 
 Este proyecto es financiado por la Facultad de Filosofia y Letras de la Universidad de Buenos Aires  (FiloCyT 2025) y es liderado por el HD LAB del IIBICRIT de CONICET con la colaboracion del [grupo RosDH de la Universidad de Rostock](https://www.germanistik.uni-rostock.de/en/forschung/digital-humanities/rosdh/).
 
-Acceso a las obras y sus redes desde [ArDraCor](https://dracor.org/ar)
+Acceso a las obras y sus redes desde <a class="no-underline-hover" target="_blank" rel="noopener noreferrer"
+     href="https://dracor.org">
+    <img src="{{site.baseurl}}/assets/dracor.png" style="max-width: 5%;" alt="DraCor">
+  </a>
 
 Repositorio GitHub [ArDraCor](https://github.com/dracor-org/ardracor)
 
