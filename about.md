@@ -15,7 +15,7 @@ Este proyecto es financiado por la Facultad de Filosofia y Letras de la Universi
     <img src="{{site.baseurl}}/assets/dracor.png" style="max-width: 5%;" alt="DraCor">
   </a> -->
 
-<div style="text-align: center; display: flex; justify-content: center; align-items: center; gap: 20px;">
+<div style="text-align: center; display: flex; justify-content: center; align-items: center; gap: 25px;">
   <a href="https://github.com/hdlabconicet/teatrar" target="_blank" title="Repositorio GitHub - HD LAB CONICET">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub ArDraCor" width="65" style="display: block;" />
   </a>
@@ -25,5 +25,3 @@ Este proyecto es financiado por la Facultad de Filosofia y Letras de la Universi
     <img src="https://www.zotero.org/static/images/theme/zotero.png" alt="Biblioteca Zotero" width="105" style="display: block;" />
   </a>
 </div>
-
-
